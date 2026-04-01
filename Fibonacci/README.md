@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-Input an integer `n`.
+Input an integer `n`. <br>
 Print first `n` numbers of the fibonacci series.
 
 ---
@@ -21,11 +21,11 @@ Print first `n` numbers of the fibonacci series.
 
 ## Output format 
 
-0 
-1
-1
-2
-3
+0 <br>
+1 <br>
+1 <br>
+2 <br>
+3 <br>
 ... first `n` fibonaccis
 
 ---
@@ -38,15 +38,15 @@ Print first `n` numbers of the fibonacci series.
 
 ### Output
 
-0
-1
-1
-2
-3
-5
-8
-13
-21
-34
+0 <br>
+1 <br>
+1 <br>
+2 <br>
+3 <br>
+5 <br>
+8 <br>
+13 <br>
+21 <br>
+34 <br>
 
 ---
