@@ -34,13 +34,13 @@ For every `n`, determine whether it is a prime number or not.
 
 ### Input
 
-3
-7
-8
-13
+3 <br>
+7 <br>
+8 <br>
+13 <br>
 
 ### Output
 
-prime 
-not prime
-prime
+prime <br>
+not prime <br>
+prime <br>
