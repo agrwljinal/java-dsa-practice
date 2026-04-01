@@ -4,42 +4,28 @@ public class PrimeBrute {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter number of entries: ");
         int t = sc.nextInt();
 
-        int flag = 0;
-
-        System.out.print("Enter the numbers: ");
-
-        for(int i=1; i<=t; i++) {
-            
+        for (int i = 1; i<=t; i++) {        // loop-1
             int n = sc.nextInt();
 
-            if (n==2 || n==3) {
-                System.out.println("Prime");
+            int count = 0;
+
+            for (int j = 1; j<=n; j++) {        // loop-2
+                if (n%j==0) {
+                    count++;
+                }
+            }
+
+            if (count==2) {
+                System.out.println("prime");
             }
 
             else {
-                for (int j=2; j<=n/2; j++) {
-                    if(n%j==0) {
-                        flag = 1;
-                        break;
-                    }
-                }
-
-                if (flag == 0) {
-                    System.out.println("Prime");
-                }
-
-                else {
-                    System.out.println("Not Prime");
-                }
-
-                flag = 0;
+                System.out.println("not prime");
             }
         }
 
-        System.out.println("Program terminated successfully");
+        sc.close();
     }
 }
