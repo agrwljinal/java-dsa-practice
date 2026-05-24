@@ -11,6 +11,10 @@ Input two integers `num1` and `num2`. Calculate and print their GCD and LCM.
 `GCD`<br>
 `LCM`
 
+### Contraints
+2 <- num1 <- 10^9 <br>
+2 <- num2 <- 10^9
+
 ### Example
 Input:<br>
 24<br>
