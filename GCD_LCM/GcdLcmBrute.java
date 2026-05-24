@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class gcd_lcm {
+public class GcdLcmBrute {
     
     public static int gcd(int n1, int n2) {
 
